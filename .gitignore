@@ -1,0 +1,43 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+ENV/
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+**/node_modules/
+frontend/node_modules/
+dist/
+**/dist/
+dist-ssr/
+*.local
+.vite/
+
+# Tools & Temporary Captures
+tools/
+demo_videos/
+.cache/
+*.log
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
